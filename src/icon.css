@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icons';
+  src: url('fonts/icons.ttf?66cpda') format('truetype'),
+    url('fonts/icons.woff?66cpda') format('woff'),
+    url('fonts/icons.svg?66cpda#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='_icon-'],
+[class*=' _icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  color: #60606e;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-inst:before {
+  content: '\e900';
+}
+._icon-pinterest:before {
+  content: '\e901';
+}
+._icon-in:before {
+  content: '\e902';
+}
+._icon-youtube:before {
+  content: '\e903';
+}
+._icon-twitter:before {
+  content: '\e904';
+}
+._icon-fb:before {
+  content: '\e906';
+}
+._icon-tune:before {
+  content: '\e907';
+}
+._icon-shopping:before {
+  content: '\e908';
+}
+._icon-shuffle:before {
+  content: '\e909';
+}
+._icon-inclusive:before {
+  content: '\e90a';
+}
+._icon-menu:before {
+  content: '\e90b';
+}
